@@ -154,3 +154,20 @@ Example	Sales[Total] = Sales[Quantity] * Sales[Price] (calculated column)	CALCUL
  21. when you will use bar chart and column chart?
 ans:- Column Chart: Use when comparing data over time (e.g., sales by month).
 Bar Chart: Use when comparing categories with long names or many items (e.g., sales by product).
+
+RLS :- In Power BI, Row Level Security (RLS) is a feature that allows you to control which rows of data users can access, based on their role or login. It's a way to ensure that users only see data relevant to them, preventing them from viewing sensitive or unauthorized information. 
+
+Example:
+Imagine a company wants to restrict access to sales data based on region. They could create roles like "Sales Manager - West", "Sales Manager - East", and "Salesperson - West", then create RLS rules that filter the sales data table to only show sales data for the respective region based on the user's role. 
+
+How RLS works:
+1. Define Roles:
+You create roles (like "Sales Manager", "Accountant", etc.) and assign users to those roles. 
+2. Define RLS Rules:
+For each role, you create RLS rules that specify which rows of data users with that role should be able to see. These rules are usually written in DAX (Data Analysis Expressions) and can be based on user attributes, like their department or location. 
+3. Apply RLS:
+You apply RLS rules to specific tables in your Power BI model. 
+4. Data Filtering:
+When a user accesses a Power BI report, the RLS rules are applied, and the data is filtered to only show the rows that the user is authorized to see. 
+
+

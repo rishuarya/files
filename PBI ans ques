@@ -1,0 +1,156 @@
+1. What is Power BI?
+Power BI is a data visualization and business intelligence tool from Microsoft. It helps you turn raw data into interactive dashboards and reports to make better decisions.
+
+2. Power BI vs Tableau
+Feature	Power BI	Tableau
+Developer	Microsoft	Salesforce
+Ease of Use	Easier for beginners	More flexible, but steeper learning curve
+Integration	Great with Microsoft tools (Excel, Azure)	Works well with many data sources
+Cost	More affordable	More expensive
+Data Handling	Good for medium-sized data	Better for large and complex data
+
+3. Power BI Desktop vs Power BI Service
+Feature	Power BI Desktop	Power BI Service
+Type	Windows application	Online/cloud-based platform
+Use	Create and design reports	Share, collaborate, and view reports
+Data Refresh	Manual	Scheduled automatic refresh
+Cost	Free	Requires Pro or Premium license
+
+4. How to Import Data into Power BI?
+1. Open Power BI Desktop.
+2. Click Home > Get Data.
+3. Choose your data source (Excel, SQL, Web, etc.).
+4. Click Connect, select your file/table, and load it.
+
+5. Purpose of the Query Editor in Power BI
+The Query Editor (Power Query) is used to:
+• Clean data (remove errors, blanks)
+• Transform data (change types, split columns)
+• Shape data (filter rows, merge tables) It helps prepare your data before creating visuals.
+
+6. Role of Visuals in a Power BI Report
+Visuals (charts, graphs, maps, etc.) help:
+• Understand data quickly
+• Spot trends and patterns
+• Make data interactive They turn numbers into insights.
+
+7. What is a Filter in Power BI and Why is it Useful?
+A filter lets you show only the data you want. It’s useful because:
+• It helps focus on specific data (e.g., only one region or year).
+• Makes reports cleaner and more relevant.
+Types: Visual-level, Page-level, Report-level filters.
+
+8. Basic Steps for Data Cleaning and Transformation in Power Query
+1. Remove errors or blanks
+2. Change data types (e.g., text to number)
+3. Rename columns
+4. Split or merge columns
+5. Filter rows
+6. Group data
+7. Create calculated columns
+
+9. What is a Slicer in Power BI and How is it Used?
+A slicer is a visual filter. It lets users click to filter data in a report.
+Example: A slicer for “Year” lets you choose 2023, and all visuals update to show only 2023 data.
+
+10. Benefits of Using Power BI
+• Easy to use
+• Interactive dashboards
+• Real-time data updates
+• Connects to many data sources
+• Strong Microsoft integration
+• Affordable for businesses
+
+11. Types of Power BI Users
+User Type	Role Description
+Viewer	Views and interacts with reports
+Analyst	Builds reports and dashboards
+Data Engineer	Prepares and models data
+Admin	Manages access, security, and settings
+Developer	Integrates Power BI with other apps using APIs
+
+ 12. What is Power Query in Power BI?
+Power Query is an ETL tool. It can help shape, transform, and clean data with the help of intuitive interfaces and no need for coding. 
+
+Power Query can help with the following:
+Importing data from various data sources like files, databases, social media data, big data, etc.
+Appending and joining data from several sources.
+Adding or removing data to shape it according to requirements
+
+13. What are the major components of Power BI?
+There are five different components of Power BI.
+
+Power Pivot: Fetches and cleans data and loads on to Power Query
+Power Query: Operates on the loaded data
+Power Q&A: Makes it possible for users to interact with reports using simple English language
+Power View: Lets users create interactive charts, graphs, maps, and other visuals
+Power Map: Enables the processing of accurate geographic locations in datasets
+
+14. What is DAX? What are the benefits of using variables in DAX?
+DAX, or Data Analysis Expressions, is a formula language for calculating data and performing data analysis in Power Pivot. It allows you to query and retrieve data using a table expression, as well as create calculated columns, calculated fields, and measurements. It is important to note that although DAX is useful for data analysis, data cannot be loaded or transformed.
+
+DAX Syntax: Total Sales = SUM(Sales[SalesAmount])
+
+Benefits of using variables in DAX:
+
+Variables in DAX queries can be reused, avoiding additional source database queries.
+Variables make DAX expressions understandable.
+
+14. What are the three fundamental concepts of DAX?
+Three fundamental concepts of DAX are as follows:
+
+Syntax: Syntax refers to the rules that define how the code is structured, including the functions to be used. Syntax errors will result in an error message.
+Functions: Functions refer to instructions performed in a specific sequence to achieve a specific result.
+Context: There are two types of contexts in formulas - Row Context and Filter Context. Row Context is applied when a formula uses a function that filters a table to identify a specific row. Filter Context is applied when one or more filters are used to obtain a certain value.
+
+15. What are the most common DAX functions used?
+Some of the most commonly used DAX functions are listed below:
+
+Aggregation Functions: SUM, MIN, MAX, AVG, COUNTROWS, DISTINCTCOUNT
+Information Functions: ISBLANK, ISFILTERED, ISCROSSFILTERED
+Statistical Functions: GEOMEAN, MEDIAN
+Logical Functions: IF, AND, OR, SWITCH
+Date & Time Functions: DATEDIFF, DATEVALUE
+Filter Functions: VALUES, ALL, FILTER, CALCULATE, TOPN
+Other Functions: UNION, INTERSECT, EXCEPT, NATURALINNERJOIN, NATURALLEFTEROUTERJOIN,
+SUMMARIZECOLUMNS, ISEMPTY, VAR
+
+16. What is the CALCULATE function in DAX?
+The CALCULATE function helps calculate the sum of the total column and can be customized using filters
+
+Syntax: CALCULATE ( [, [, [, … ]]] )
+Expression: That has to be evaluated.
+Filter: The filter is an expression used to define a boolean or a table.
+
+17. What are the different views available in Power BI Desktop?
+Power BI has three distinct views, each serving a unique purpose:
+
+Report View: Users can create and publish custom reports with added visualizations and pages.
+Data View: Query Editor tools can be used to shape data.
+Relationship View: In this view, users have the ability to manage the relationships among different datasets.
+
+18. What are the different types of filters available in Power BI?
+Power BI offers a range of filter types:
+
+Visual-level Filters: These filters can reduce the amount of data a visualization can access and filter both calculations and data.
+Page-level Filters: Page-level filters can be different for different pages of the same report.
+Report-level Filters: Filters are applied to the entire report, including all visualizations and pages.
+
+19. How does Power BI handle data refresh? What are the different refresh types?
+
+ANS :- 
+Power BI handles data refresh to keep our reports and dashboards up-to-date. Here are the different refresh types:
+Scheduled Refresh: Automatically updates data at set intervals, ensuring your reports have the latest information.
+Manual Refresh: Allows users to update data on demand whenever needed.
+Incremental Refresh: Refreshes only new or changed data, improving performance by reducing the amount of data processed.
+Live Connection: Provides real-time data updates directly from the source, ensuring the most current data is displayed.
+
+20. What is Row Context vs. Filter Context in DAX?
+ANS:- 
+Feature Row Context	Filter Context
+Definition	Context of a single row in a table	Context created by filters applied to data
+Usage	Applies to calculations for each row individually	Applies to calculations with specific filters in place
+Example	Sales[Total] = Sales[Quantity] * Sales[Price] (calculated column)	CALCULATE(SUM(Sales[Amount]), Sales[Region] = "East") (measure)
+ 21. when you will use bar chart and column chart?
+ans:- Column Chart: Use when comparing data over time (e.g., sales by month).
+Bar Chart: Use when comparing categories with long names or many items (e.g., sales by product).

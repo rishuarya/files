@@ -1,0 +1,59 @@
+Title : Database Administrator
+Job Summary:
+DBA/Database Administrator is responsible to manage and maintain the SQL Server and Oracle Database systems supporting multiple critical company systems. As a DBA, you are responsible to design, install, monitor, maintain, and performance tuning of production databases while ensuring high levels of data availability. DBA, also Develops, implements, and oversees database policies and procedures to ensure the integrity and availability of databases and their accompanying software. DBA should be able to technically lead/coordinate projects related to the Database systems and keep the Database up and running smoothly 24/7. The goal of DBA is ensure performance, integrity and security of Databases, which could include confidential Company’s financial data. As a DBA, he/she needs to make sure that data is available to users and secure from unauthorized access or accidental loss or corruption.
+Job Duties:
+•	SQL Server 2012/2014/2016/2019 Database administration, configuration, troubleshooting, Performance tuning & Query Optimization, Replication, Log Shipping & clustering.
+•	Oracle 11g/12c Database administration, configuration, troubleshooting, Performance tuning and Query Optimization advanced replication, Golden gate, DataGaurd.
+•	Manage database engines of Oracle, SQL Server, and MySQL on AWS.
+•	Work on Implement High Availability solutions for SQL Server & Oracle databases like Log shipping, replication, Clustering, Mirroring, Multi-Master/Transactional Replication. 
+•	Perform applications database administration (Oracle) services including SQL code review, performance analysis, Query Tuning, database application design, physical data modeling, development support & Engineering.
+•	Advanced Working knowledge and experience on Creating and deploying SSIS Packages, SSRS reports and SQL Server High Availability Solutions knowledge is critical.
+•	Ensure all Database Backups are reliable & restorable as per RTO & RPO.
+•	Responsible for proposing and validating approved disaster recovery and business continuance solutions for Oracle and SQL Server Databases.
+•	Ensure Dev,Test are Synced with Production environments and Perform Regular Health Checks on the Database Servers & Proactively monitor databases servers , Setup and respond to any alerts.
+•	Define thresholds on Performance Counters for monitoring tools like Nagios, Solar winds.
+•	Working with RMAN for backup, recovery and duplicate Oracle databases, Use DB Flashback feature to restore database/DB tables.
+•	Create User accounts, Roles and granting required access, permissions and privileges to the Database based on the Principle of least Privileges.
+•	Schedule & Perform regular DB maintenance Like Index Maintenance, Statistics update, Applying Security packs, cumulative packs for SQL Servers & Upgrading Oracle Databases.
+•	Establish database standards for operations, upgrades, migrations and Write clear, concise, well-organized user documentation to maintain standards and procedures.
+•	Participate in 24/7 on call rotation schedule for various production support, database maintenance, housekeeping and installs
+•	Responsible for the establishment of KPIs for the Database service and implementing metric-driven improvement objectives on time and within budget.
+•	Responsible for the evaluation of Database software purchases and work closely with IT project managers, Database programmers and multimedia programmers.
+
+
+Basic Qualifications/ Requirements:
+•	Education: Bachelor’s/Master’s degree in computer science or Information Technology or Information Science or Relevant Experience.
+•	At least 4+ years of experience in the field of SQL Server Database Administration. 
+•	Minimum 1+ years of DBA experience with Oracle & basic Knowledge of MySQL.
+•	Experience in development and Administration of Microsoft SQL Server & Oracle Databases. 
+•	Requires good knowledge & experience in Oracle Architecture & basic knowledge of MySQL.
+•	Experience on performance tuning and optimization, query optimization, index tuning, etc.
+•	Perform operational DBA duties: installation, database upgrades, patching, implement backup/recovery and monitoring procedures, capacity planning.
+•	Advance Knowledge of troubleshooting & writing Complex SQL Queries as per requirement.
+•	Experience in Performing Homogenous & Heterogeneous Database Migrations & Upgrades.
+•	Expert Knowledge in regular Database maintenance activities like Backups, Restores, checking corruption, Index & Statistics Maintenance.
+•	Experience on Creating and deploying SSIS Packages, SSRS reports.
+•	Advanced Working knowledge of SQL Server High Availability Solutions like Replication, Log shipping, Mirroring, Always-On knowledge is critical.
+•	Knowledge of at least one scripting language (PowerShell, Python, and Shell). 
+•	Basic Knowledge of Server infrastructure (Windows, Linux) & networking and ITIL Best Practices.
+
+Preferred/ Nice to Have Skills: 
+•	At least DBA Related Certifications (MCSA, OCA) is a Plus.
+•	Experience with Oracle Database Administration.
+•	Any Cloud AWS/Azure Certification is a Plus.
+•	Hands on experience in AWS cloud environment services Like RDS, EC2, IAM, DMS and SCT.
+•	Ability to work on HA technologies & perform Server diagnosis on Oracle & SQL Servers.
+•	Experience in development and Administration of Microsoft SQL Server & Oracle Databases. 
+•	Advanced knowledge and experience in SSIS, SSRS and High Availability solutions is critical.
+•	Experience in Oracle Enterprise Manager and performing database migrations using various methods(RMAN, XTTS, Datapump or Data guard)
+•	Requires expert knowledge of Database administration, replication, monitoring, backup/recovery and security in multiple platforms.
+•	Ability to troubleshoot Microsoft SQL databases/indexes/queries/programmability, maintain Microsoft SQL database performance support Oracle databases. 
+
+Other Skills: 
+•	Ability to work with AGILE methodology in relationship to IT/IS.
+•	Ability to be a self-motivated member of the IT Team and Must be able to work in a Team atmosphere and have a positive attitude.
+•	Have good knowledge of basic networking and basic IT infrastructure connectivity.
+•	Effective oral and written communications skills 
+•	Demonstrated ability to handle multiple projects and assignments with attention to detail.
+•	Problem solving, well organized, detailed oriented and accurate. 
+•	Ability to complete assigned tasks with minimal direct supervision.
